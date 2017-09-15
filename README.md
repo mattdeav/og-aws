@@ -379,7 +379,7 @@ It’s important to know the maturity of each AWS product. Here is a mostly comp
 | [IAM](https://aws.amazon.com/releasenotes/AWS-Identity-and-Access-Management?browse=1)                     | 2010-09          | General                                                                       | ✓           |                 |  ✓              |
 | [SNS](https://aws.amazon.com/releasenotes/Amazon-SNS?browse=1)                                             | 2010-04          | General                                                                       | ✓           | ✓         		|					|
 | [EMR](https://aws.amazon.com/releasenotes/Elastic-MapReduce?browse=1)                                      | 2010-04          | General                                                                       | ✓           | ✓         		|	✓   			|
-| [RDS](https://aws.amazon.com/releasenotes/Amazon-RDS?browse=1)                                             | 2009-12          | General                                                                       | ✓           |✓<sup>[2](#user-content-hipaa-rds)</sup>        |✓<sup>[9](#user-content-pci-rds)</sup>				|    
+| [RDS](https://aws.amazon.com/releasenotes/Amazon-RDS?browse=1)                                             | 2009-12          | General                                                                       | ✓           |✓<sup>[2](#user-content-hipaa-rds)</sup>        |✓<sup>[9](#user-content-pci-rds)</sup>				|
 | [VPC](https://aws.amazon.com/releasenotes/Amazon-VPC?browse=1)                                             | 2009-08          | General                                                                       | ✓           | ✓         		|	✓   			|
 | [Snowball](https://aws.amazon.com/releasenotes/AWS-ImportExport?browse=1)                                  | 2015-10          | General                                                                       | ✓           | ✓         		|					|
 | [Snowmobile](https://aws.amazon.com/snowmobile/)                                                           | 2016-11          | General                                                                       |            |                 |                  |
@@ -1688,6 +1688,12 @@ Kinesis Streams
 
 Kinesis Firehose
 ---
+
+### Kinesis Firehose Basics
+
+-	📒 [Homepage](https://aws.amazon.com/kinesis/firehose/) ∙ [Developer guide](http://docs.aws.amazon.com/firehose/latest/dev/what-is-this-service.html) ∙ [FAQ](https://aws.amazon.com/kinesis/firehose/faqs/) ∙ [Pricing](https://aws.amazon.com/kinesis/firehose/pricing/)
+-	**Kinesis Firehose** is a service which is capable of ingesting high-throughput data, similar to Kinesis Streams. Instead of reading it like a messaging queue, however, Firehose buffers then delivers the data in regular intervals
+- Firehose can receive data in a variety of ways, depending on your application needs. Details on how to publish data to Firehose can be found [here](https://docs.aws.amazon.com/firehose/latest/dev/basic-write.html).
 
 ### Kinesis Firehose Gotchas and Limitations
 
